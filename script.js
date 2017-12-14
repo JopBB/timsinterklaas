@@ -1,5 +1,6 @@
 		$(document).ready(function(event){
 			klikvaak = 0;
+            $('#counter').html(klikvaak);
 			tienen = 0;
 			$('#tienen').html(tienen);
 			enen = 0;
@@ -44,6 +45,7 @@
         	}
         	else{
         		klikvaak++;
+                $('#counter').html(klikvaak);
         	}
         }
 
@@ -66,7 +68,7 @@
 
         odz = function(){
         	if(document.getElementById('odz').value=='We gaan ons best doen!'){
-        		document.location='./gedicht.html'
+        		document.location='./stap6.html'
         	}
         }
 
@@ -75,7 +77,9 @@
         	$('#tienen').html(tienen);
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
-        	}
+        	}else{
+                $('#gehaald').addClass('invis')
+            }
         }
 
         enenPlus = function(){
@@ -83,5 +87,7 @@
         	$('#enen').html(enen);
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
-        	}
+        	}else{
+                $('#gehaald').addClass('invis')
+            }
         }
