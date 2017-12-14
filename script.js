@@ -77,7 +77,9 @@
         	$('#tienen').html(tienen);
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
-        	}else{
+        	}else if(tienen==2 && enen==6){
+                $('#b26').removeClass('invis')
+            }else{
                 $('#gehaald').addClass('invis')
             }
         }
@@ -87,7 +89,10 @@
         	$('#enen').html(enen);
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
-        	}else{
+        	}else if(tienen==2 && enen==6){
+                $('#b26').removeClass('invis')
+            }
+            else{
                 $('#gehaald').addClass('invis')
             }
         }
