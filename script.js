@@ -78,7 +78,8 @@
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
         	}else if(tienen==2 && enen==6){
-                $('#b26').removeClass('invis')
+                $('#b26').removeClass('invis');
+                $('#gehaald').addClass('invis');
             }else{
                 $('#gehaald').addClass('invis')
             }
@@ -90,7 +91,8 @@
         	if(tienen==2 && enen==5){
         		$('#gehaald').removeClass('invis')
         	}else if(tienen==2 && enen==6){
-                $('#b26').removeClass('invis')
+                $('#b26').removeClass('invis');
+                $('#gehaald').addClass('invis');
             }
             else{
                 $('#gehaald').addClass('invis')
